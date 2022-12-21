@@ -36,6 +36,7 @@
 .footer{
     display: flex;
     justify-content: space-around;
+    padding-top: 2vh;
     background-color: #5e0618;
     color: white;
     font-family: var(--raleway);
@@ -49,6 +50,7 @@
 .rs{
     display: flex;
     justify-content: space-around; 
+    width: 25vw;
 }
 .infosfooter{
     display: flex;
