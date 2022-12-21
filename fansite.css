@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
 
+
 /* header */
 
 }
@@ -25,7 +26,7 @@
     position: absolute;
     top: 0px;
     color:white;
-    width: 100%;
+    width: 100vw;
     font-family: var(--raleway);
 }
 .logo{
@@ -35,8 +36,8 @@
 /* Footer */
 .footer{
     display: flex;
-    justify-content: space-around;
-    padding-top: 2vh;
+    padding: 2vh;
+    justify-content: space-between;
     background-color: #5e0618;
     color: white;
     font-family: var(--raleway);
@@ -45,6 +46,7 @@
 .logo-rs{
     filter: invert(100%);
     height: 3vh;
+
    
 }
 .rs{
@@ -55,4 +57,12 @@
 .infosfooter{
     display: flex;
     flex-direction: column;
+    margin-left: 25vh;
+}
+.logofooter{
+   height:15vh;
+}
+.footer>.rs{
+    display: flex;
+    align-items: center;
 }
