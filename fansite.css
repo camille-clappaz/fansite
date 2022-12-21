@@ -64,4 +64,8 @@ a{
 .infosfooter{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+.infosfooter>a{
+    margin:1vh;
 }
