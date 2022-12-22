@@ -3,15 +3,21 @@
     --raleway:"Raleway";
 }
 
+
+
+
+
 *,::before,::after{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-
-
+    /* padding: 0; */
+}
+a:hover{
+    color: gray;
+}
 /* header */
 
-}
+
 .header>img{
     width: 100%;
 }
@@ -68,4 +74,64 @@ a{
 }
 .infosfooter>a{
     margin:1vh;
+}
+
+/* Homepage */
+.citation{
+    font-family: var(--raleway);
+    font-style: italic;
+    text-align: center;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 13vh;
+}
+.presentation{
+    font-family: var(--raleway);
+    margin: 3vh;
+}
+/* Tour */
+.dates{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.dates > h2{
+    text-align: center;
+
+    width: 10%;    
+}
+
+.dates >  button{
+    text-align: center;
+ width: 10%;    
+ padding: 20px;
+ margin: 20px;
+}
+
+.dates > h3{
+    text-align: center;
+ width: 10%;    
+}
+.lieu{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+}
+span{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #5e0618;
+    width: 98%;
+    justify-content: center;
+}
+#spanDiv{
+    display: flex;
+    justify-content: center;
+}
+.dates > button{
+    background-color: white;
+    color: #5e0618;
+    
 }
