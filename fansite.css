@@ -5,7 +5,9 @@
 
 
 
-
+body{
+    font-family: var(--raleway);
+}
 
 *,::before,::after{
     box-sizing: border-box;
@@ -35,7 +37,6 @@ a:hover{
     position: absolute;
     top: 0px;
     width: 100vw;
-    font-family: var(--raleway);
 }
 .logo{
     width: 100px;
@@ -52,7 +53,6 @@ a{
     justify-content: space-between;
     background-color: #5e0618;
     color: white;
-    font-family: var(--raleway);
 }
 .rs{
     display: flex;
@@ -81,7 +81,6 @@ a{
 
 /* Homepage */
 .citation{
-    font-family: var(--raleway);
     font-style: italic;
     text-align: center;
     width: 100vw;
@@ -89,12 +88,25 @@ a{
     margin-top: 13vh;
 }
 .presentation{
-    font-family: var(--raleway);
     margin: 3vh;
 }
-.news{
+.news {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10vh;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.favoritesong{
+    padding-top:2vh;
+    margin: 4vh;
+    text-align: center;
+    border: #5e0618 2px solid;
+}
+.videomusique{
+    margin: 4vh;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Tour */
