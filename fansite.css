@@ -134,3 +134,49 @@ span{
     background-color: white;
     color: #5e0618;
 }
+/* shop */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 4px;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+  }
+  
+  .price {
+    color: #5e0618;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: solid ;
+    outline: 0;
+    padding: 12px;
+ color: #5e0618;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card > img{
+    width:100%;
+  }
+  .soldout{
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    color:red;
+    transform: rotate(-45deg);
+    font-size: 40px;
+  }
