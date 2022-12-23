@@ -16,7 +16,10 @@ a:hover{
     color: gray;
 }
 /* header */
-
+.header{
+    display: flex;
+    flex-direction: column;
+}
 
 .header>img{
     width: 100%;
@@ -89,6 +92,11 @@ a{
     font-family: var(--raleway);
     margin: 3vh;
 }
+.news{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Tour */
 .dates{
     display: flex;
@@ -98,8 +106,7 @@ a{
 
 .dates > h2{
     text-align: center;
-
-    width: 10%;    
+ width: 10%;    
 }
 
 .dates >  button{
@@ -111,7 +118,7 @@ a{
 
 .dates > h3{
     text-align: center;
- width: 10%;    
+ width: 15%;    
 }
 .lieu{
     display: flex;
@@ -181,7 +188,7 @@ span{
   /* gallery page */
    .gallery{
     height: 600px;
-    margin: 2px;
+   border: 2px solid white;
     display: grid;
     grid-template-rows: 500px 100px;
     grid-template-columns: 1fr 30px 30px 30px 30px 30px 30px 30px 30px 1fr;
