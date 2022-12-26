@@ -2,9 +2,6 @@
 :root{
     --raleway:"Raleway";
 }
-
-
-
 body{
     font-family: var(--raleway);
 }
@@ -117,7 +114,7 @@ a{
 }
 
 .dates > h2{
-    text-align: center;
+text-align: center;
  width: 10%;    
 }
 
@@ -130,7 +127,8 @@ a{
 
 .dates > h3{
     text-align: center;
- width: 15%;    
+    width: 10%;    
+ margin: 20px;
 }
 .lieu{
     display: flex;
@@ -139,15 +137,16 @@ a{
     text-align: center;
 }
 span{
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     border: solid 1px #5e0618;
     width: 98%;
-    justify-content: center;
+    /* justify-content: center; */
 }
 #spanDiv{
     display: flex;
     justify-content: center;
+    margin: 2vh;
 }
 .dates > button{
     background-color: white;
@@ -329,3 +328,10 @@ span{
     width: auto;
     height: 300px;
   }
+/* discography */
+.disco{
+  margin-bottom: 2vh;
+}
+.discography h3, .discography h1{
+  margin:2vh;
+}
