@@ -332,6 +332,6 @@ span{
 .disco{
   margin-bottom: 2vh;
 }
-.discography h3, .discography h1{
+.discography h3, .discography h1,.discography h2, .discography p{
   margin:2vh;
 }
